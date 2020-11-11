@@ -1,0 +1,166 @@
+<html>
+    <head>
+        <style>
+            .mySlides{
+                display: none;
+                top: 0%;
+            }
+            .name{
+                position: absolute;
+                top: 1.5%;
+                left: 1%;
+                color: aquamarine;
+                background: lightcoral;
+                opacity: 0.7;
+            }
+            .name h1{
+                font-size: x-large;
+                text-transform: uppercase;
+            }
+            .navig{
+                padding: 0.5px;
+                position: absolute;
+                top: 1.5%;
+                left: 30%;
+                color: white;
+                background: black;
+                opacity: 0.7;
+            }
+            .navig li{
+                padding: 15;
+                list-style-type: none;
+                float: left;
+                color: cadetblue;
+            }
+            .navig li a{
+                display: block;
+                color: white;
+                font-size: 20;
+                text-decoration: none;
+            }
+            .navig li a:hover{
+                background-color: cadetblue;
+                color: crimson;
+            }
+            .dropbtn li a{
+                display: inline-block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+            li a:hover, .dropdown:hover .dropbtn {
+                background-color:cadetblue;
+            }
+            li.dropdown {
+                display: inline-block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: black;
+                min-width: 100px;
+                /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+                z-index: 1;
+            }
+            .dropdown-content a {
+                color: black;
+                padding: 12px;
+                text-decoration: none;
+                display: block;
+                text-align: left;
+            }
+            .dropdown-content a:hover {
+                background-color: black;
+            }
+            .dropdown:hover .dropdown-content {
+                display: block;
+            }
+            .login{
+                position: absolute;
+                top: 60%;
+                left: 55%;
+                padding: 75;
+                width: 300px;
+                height: 150px;
+                background: rosybrown;
+                opacity: 0.7;
+            }
+            .topic{
+                padding: 30;
+                align-content: center;
+            }
+
+
+        </style>
+
+    </head>
+    <body>
+        <div class="moving slides" style="max-width:1400px">
+            <img class="mySlides" src="suriya2.jpg" style="width: 1400">
+            <img class="mySlides" src="suriya3.jpg" style="width: 1400">
+            <img class="mySlides" src="homepage4.jpg" style="width: 1400">
+            <img class="mySlides" src="homepg1.jpg" style="width: 1400">
+          </div>
+          
+          <script>
+          var myIndex = 0;
+          carousel();
+          
+          function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+              x[i].style.display = "none";  
+            }
+            myIndex++;
+            if (myIndex > x.length) {myIndex = 1}    
+            x[myIndex-1].style.display = "block";  
+            setTimeout(carousel, 2000); // Change image every 2 seconds
+          }
+          </script>  
+          <div class="name">
+              <h1>Sea Side South Park</h1>
+          </div>
+          <div class="navig">
+              <ul>
+                <li><a class="active" href="#home">Home</a></li>
+                <li><a class="active" href="#abouus">About us</a></li>
+                <li><a class="active" href="#contactus">Contact us</a></li>
+                <li><a class="active" href="#room">Room</a></li>
+                <li><a class="active" href="#hotelreservattion">Hotel Reservation</a></li>
+                <li class="dropdown"><a class="active" href="#multiplehotel" class="dropbtn">Multiple Hotel</a>
+                <div class="dropdown-content">
+                    <a href="#gallery">View Photo Gallery</a>
+                    <a href="facilities.html">Hotel Facilities</a>
+                    <a href="#map">Map</a>
+                </div>
+                </li>
+                <li class="dropdown"><a class="active" href="#registration" class="dropbtn">Registration</a>
+                <div class="dropdown-content">
+                    <a href="#gallery">Login</a>
+                </li>
+              </ul>
+          </div>
+          <div class="login">
+              <table>
+                  <tr>
+                      <td class="topic1"><h1><center>Login</center></h1></td>
+                  </tr>
+                  <tr></tr>
+                  <tr>
+                      <td>Username</td>
+                      <td><input type="text" name="uname"></td>
+                  </tr>
+                  <tr>
+                    <td>Password</td>
+                    <td><input type="text" name="uname"></td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td><input type="submit" value="Login"></td>
+                </tr>
+              </table>
+          </div>
+    </body>
+</html>
