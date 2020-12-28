@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta name="=viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" href="login.css">
+    </head>
+    <body>
+        <h1>
+            Login Form
+        </h1>
+        <form class="form1"action="/action_page.php" method="post">
+        <div class="imgcontainer">
+            <img src="avatar1.jpg" alt="Avatar" class="avatar">
+        </div>
+        <div class="container">
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="uname" required>
+        <br>
+        <label for="password"><b>Password</b></label>
+        <input type="text" placeholder="Enter Password" name="psw" required>
+        <br>
+        <label>
+            <input type="checkbox"  name="rememberme">Remember Me
+        </label>
+        <br>
+        <button type="submit">Login</button>
+        </div>
+        <div class="container" style="background-color: whitesmoke">
+        <button type="button" class="cancelbtn">Cancel</button>
+        <span class="psw"><a href="#">Forgot password?</a></span>
+        </div>
+        </form>
+    </body>
+</html>
