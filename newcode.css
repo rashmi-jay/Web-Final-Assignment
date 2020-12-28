@@ -1,0 +1,93 @@
+.mySlides{
+    display: none;
+    top: 0%;
+}
+.name{
+    position: absolute;
+    top: 1.5%;
+    left: 1%;
+    color: aquamarine;
+    background: lightcoral;
+    opacity: 0.7;
+}
+.name h1{
+    font-size: x-large;
+    text-transform: uppercase;
+}
+.navig{
+    padding: 5px;
+    position: fixed;
+    width: 100%;
+    top: 1.5%;
+    left: 30%;
+    background: black;
+    opacity: 0.7;
+    color:rosybrown;
+}
+.navig li{
+    padding: 5px;
+    list-style-type: none;
+    float: left;
+    color: cadetblue;
+}
+.navig li a{
+    display: block;
+    padding: 10px;
+    color: skyblue;
+    font-size: 20;
+    text-decoration: none;
+}
+.navig li a:hover{
+    background-color: black;
+    opacity: 0.6;
+    color: whitesmoke;
+}
+.dropbtn li a{
+    display: inline-block;
+    color:skyblue;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+}
+li a:hover, .dropdown:hover .dropbtn {
+    background-color:cadetblue;
+}
+li.dropdown {
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    opacity: 0.6;
+    min-width: 100px;
+    /*box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);*/
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: black;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.login{
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    padding: 75;
+    width: 300px;
+    height: 150px;
+    background: rosybrown;
+    opacity: 0.7;
+}
+.topic{
+    padding: 30;
+    align-content: center;
+}
