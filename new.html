@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 80%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: right;
+  width: 20%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color:black;
+  margin: 2% auto 10% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 30%; /* Could be more or less, depending on screen size */
+  float: right;
+  font-family: cursive;
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+body{
+  color: 
+ 	   #87cccc  ;
+  background-image: url("vid.jpg");
+  text-align: center;
+  color: #ffe6e6;
+	font-family: cursive;
+  }
+  
+  .123{
+  color: #2F4F4F;
+	font-family: cursive;
+	text-align: center;}
+	
+	
+	 .vid{
+background-color:black ;
+  margin: 8% auto 10% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 40%; /* Could be more or less, depending on screen size */
+  float: left;
+  color: #2F4F4F;
+	font-family: cursive;
+	text-align: center;
+ }
+</style>
+<body>
+
+
+<div class="123">
+<h1>Book Now The Hotel For Your Event</h1>
+ </div>
+ <div> 
+  <form class="modal-content" action="/action_page.php">
+    <div class="container">
+      <h1>Book Now</h1>
+      <p>Choose your perfect event package.</p>
+      <hr>
+      <label for="email"><b>Event day</b></label>
+      <input type="text" placeholder="dd/mm/yyyy" name="numb" required>
+
+      <label for="psw"><b>Type Of event</b></label>
+      <input type="password" placeholder="select an event" name="psw" required>
+
+	  <label for="psw-repeat"><b>No of Guests</b></label>
+      <input type="password" placeholder="" name="psw-repeat" required>
+	  
+	  
+	  
+	  
+      <label for="psw-repeat"><b>Email</b></label>
+      <input type="password" placeholder="Enter youe email address" name="email" required>
+      
+      <label>
+        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+      </label>
+
+      <p>By sending you agree with the <a href="#" style="color:dodgerblue"> Privacy Statement</a>.</p>
+
+      <div class="clearfix">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'"
+		class="cancelbtn">Cancel</button>
+        <button type="submit" class="signupbtn">Confirm</button>
+		
+      </div>
+    </div>
+  </form>
+</div>
+ <div class="vid">
+  <h2>TAKE ADVANTAGE OF THE <br> SEA SIDE SOUTH PARK EXPERIENCE </h>
+     <ul>
+	    <li>Take advantage of the excellent service and <br> benefits available for group travel</li>
+		<li>Be in the know for the best deals available</li>
+		<li>Discover incredible destinations near you</li>
+		<li>Unwind in the ideal surroundings,<br> perfect for complete relaxation</li> 
+		</div>
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
