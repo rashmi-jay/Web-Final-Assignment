@@ -92,9 +92,9 @@ li.dropdown {
     position: absolute;
     top: 20%;
     left: 65%;
-	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),url("images1.jpg") center/cover no-repeat;	
-	opacity: 0.9;
-	color:azure;
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),url("images1.jpg") center/cover no-repeat;	
+    opacity: 0.9;
+    color:azure;
     padding: 40px 50px;
     width: 30%;
 }
