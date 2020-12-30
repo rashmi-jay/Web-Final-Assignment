@@ -1,0 +1,42 @@
+*{
+
+  margin-right: 20px;
+  margin-left: 20px;
+}
+p
+{
+    text-align:left;
+    font-size: 18px;
+    font-family: Adobe Myungjo Std M;
+    color: currentColor;
+    margin-top: 0;
+    
+}
+h1{
+    margin: 0;
+    font-family: Humnst777 BlkCn BT;
+    color: #f2c649;
+    text-transform: uppercase;
+    margin-top: 28px;
+ 
+}
+h4{
+    font-family: Lucida Fax;
+    color: darkslategray;
+    font-size: 20px;
+    margin-bottom: 7;
+}
+
+h5{
+    font-size: 18px;
+}
+
+li{
+    text-align:left;
+    font-size: 18px;
+    font-family: Adobe Myungjo Std M;
+    color: currentColor;
+    margin-top: 0;
+    
+    
+}
