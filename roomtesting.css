@@ -1,0 +1,55 @@
+body{
+	margin:auto;
+}
+
+.rooms{
+	margin-top:40px; 
+	background-color: seagreen;
+	
+}
+#rooms h3{
+	text-decoration: underline;
+	color:midnightblue;
+	font-weight: bold;
+}
+#rooms p{
+	font-size: 14px;
+	margin-top: 20px;
+	color:midnightblue;
+	font-weight: bold;
+}
+.rooms .col-md-4:hover{
+	background: #fffdd0;
+	cursor: pointer;
+	transition: 0.7s;
+}
+.profile-pic{
+	margin-top: 25px;
+}
+.profile-pic .img-box{
+	opacity: 1;
+	display: block;
+	position: relative;
+}
+.profile-pic h2{
+	text-align: center;
+	font-family:Lucida Handwriting;
+	font-weight: bold;
+	color: darkgoldenrod;
+	margin: 15px;
+}
+.button{
+  background-color:midnightblue;
+  border:2;
+  color: skyblue;
+  padding: 10px 15px;
+  text-align: center;
+ 
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 4px 3px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10;	
+}
