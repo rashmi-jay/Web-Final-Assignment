@@ -1,0 +1,13 @@
+body{
+    background-image: url(hotelmap.jpg);
+    -webkit-background-size; cover;
+    background-size:cover;
+    background-position: center center;
+    height:100vh;
+}
+
+h1{
+    color: black;
+    font-size:50px;
+    font-family:cursive;
+}
