@@ -1,0 +1,76 @@
+body{font-family: Arial, Helvetica, sans-serif;
+    background-color:rosybrown;
+}
+
+*{box-sizing: border-box} 
+
+input[type=text], input[type=password], input[type=date],select{
+ width: 20%;
+ padding: 15px;
+ margin: 5px 0 22px 0;
+ display: inline-block;
+ border: none;
+ background:whitesmoke;
+}
+
+input[type=radio]{
+    width: 10%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background:whitesmoke;
+}
+input[type=text]:focus, input[type=password]:focus, input[type=date]:focus{
+ background-color:whitesmoke;
+ outline: none;
+}
+hr{
+    border: 1px soli whitesmoke;
+    margin-bottom: 25px;
+    
+}
+.heading{
+    background: lightseagreen;
+    opacity: 0.5;
+    height: 50px;
+    width: 100%;
+}
+label{
+     padding: 15px;
+    color:black;
+}
+button{
+    background-color:forestgreen ;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+    opacity: 0.9;
+}
+button:hover{
+    opacity: 1;
+}
+.cancelbtn{
+    padding: 14px 20px;
+    background-color: darkred;
+}
+.cancelbtn, .signupbtn{
+    width: 30%;
+}
+.container{
+    padding: 16px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn{
+        width: 30%;
+    }
+}
+
