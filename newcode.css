@@ -13,14 +13,21 @@
 }
 .logo{
     position: absolute;
+    padding-top:30;
+	padding-left: 30;
+}
+.name .heading{
+	font-size: 80px;
+	font-family: Adobe Garamond Pro Bold;
+	font-weight: bold;
+	padding-left: 125;
 }
 .name{
     position: absolute;
     top: 40%;
     left: 5%;
-    color: aquamarine;
-    background: lightcoral;
-    opacity: 0.7;
+    color: white;
+    opacity: 1;
 }
 .name h1{
     font-size: 42;
@@ -87,14 +94,18 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
     display: block;
 }
+footer{
+    background-color: rosybrown;
+}
+
 
 .book{
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: 65%;
-    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),url("images1.jpg") center/cover no-repeat;	
-    opacity: 0.9;
-    color:azure;
+	background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)),url("images1.jpg") center/cover no-repeat;	
+	opacity: 0.9;
+	color:azure;
     padding: 40px 50px;
     width: 30%;
 }
@@ -169,7 +180,7 @@ li.dropdown {
 			display: grid;
 		}
 	}
-}
+
 @media(max-width: 500px){
 	.book{
 		padding-left: 20px;
